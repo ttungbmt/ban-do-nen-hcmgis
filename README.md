@@ -1,4 +1,4 @@
-# Bản đồ nền
+# Bản đồ nền HCMGIS
 
 ```javascript
 var hcm_basemap = L.esri.dynamicMapLayer({
