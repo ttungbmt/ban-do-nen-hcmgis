@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <title>Chèn HCMGIS vào Google Maps</title>
+        <script type="text/javascript"
+             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDKq9HHFQReMFM7PJi3ibNq30WzH8unkI">
+        </script>
+        <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/arcgislink/src/arcgislink.js">
+        </script>
+        <script type="text/javascript">
+            function init() {
+                var styles  = [
+                  {
+                    "featureType": "road",
+                    "stylers": [
+                      { "visibility": "off" }
+                    ]
+                  }
+                ];
+
+                var styledMap = new google.maps.StyledMapType(styles ,
+                    {name: "Styled Map"});
+
+                var myOptions = {
+                    zoom: 10,
+                    center: new google.maps.LatLng(10.7664156071, 106.675753848),//35.23, -80.84),
+                    mapTypeControlOptions: {
+                      mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+                    },
+                    streetViewControl: true //my favorite feature in V3!
+                };
+                var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+                map.mapTypes.set('map_style', styledMap);
+                map.setMapTypeId('map_style');
+
+                var url = 'http://localhost:6080/arcgis/rest/services/BaseMap/BaseMap_gt_HCM/MapServer';
+                var cpc = new gmaps.ags.CopyrightControl(map);
+                var dynamap = new gmaps.ags.MapOverlay(url, { opacity: 1 });
+                dynamap.setMap(map);
+            }
+
+            window.onload = init;
+        </script>
+    </head>
+    <body style="margin:0px; padding:0px;">
+        <div id="map_canvas" style="width:100%; height:100%">
+        </div>
+    </body>
+</html>
+            
+        
