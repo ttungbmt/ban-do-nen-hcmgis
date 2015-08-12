@@ -108,6 +108,7 @@ L.control.layers({
 ```
 
 ***Kết quả***
+![enter image description here](https://lh3.googleusercontent.com/nnp27jiYd-JX5kZWdHATqFGHHF517StSr7UIjL_wcQ=s0 "IMG_4001.JPG")
 Lớp bản đồ nền
 Chồng lớp bản đồ nền với không ảnh
 Lớp không ảnh
