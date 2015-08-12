@@ -3,7 +3,7 @@
 
 HCMGIS vừa công bố dịch vụ **bản đồ nền và không ảnh** (độ phân giải 25cm) khu vực Tp. HCM. Bài viết trình bày cách khai thác, sử dụng dịch vụ bản đồ này với các thư viện **Leaflet, Google Maps, ArcGIS Javascript và Openlayers**.
 
-----------
+
 
 Leaflet
 -------------
@@ -112,7 +112,7 @@ Chồng lớp bản đồ nền với không ảnh
 Lớp không ảnh
 Nhấn vào [đây](http://hcmgisportal.vn/gisc/hcmgis_leaflet.html) để xem ví dụ
 
-----------
+
 Openlayers
 -------------
 Khai báo thư viện Openlayers trong thẻ head
@@ -155,7 +155,7 @@ var map = new ol.Map({
 Nhấn vào [đây](http://hcmgisportal.vn/gisc/hcmgis_openlayers.html) để xem ví dụ
 
 
-----------
+
 Google Maps
 -------------
 Đăng kí **Key API** cho ứng dụng của Google Maps hoặc sử dụng key sau và nhúng vào, thẻ head trong tệp html
@@ -188,8 +188,8 @@ Hiển thị lớp giao thông GIS nền trên Google Maps khi ẩn lớp giao t
 Nhấn vào [đây](http://hcmgisportal.vn/gisc/hcmgis_googlemaps.html) để xem ví dụ
 
 
-----------
-ArcGIS Javascript -
+
+ArcGIS Javascript 
 ----------
 
 Khai báo thư viện ArcGIS Javascript
