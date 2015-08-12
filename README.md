@@ -112,6 +112,7 @@ L.control.layers({
 Lớp bản đồ nền
 Chồng lớp bản đồ nền với không ảnh
 Lớp không ảnh
+
 Nhấn vào [đây](http://hcmgisportal.vn/gisc/hcmgis_leaflet.html) để xem ví dụ
 
 
@@ -212,4 +213,5 @@ require(["esri/map", "dojo/domReady!", "esri/layers/ArcGISDynamicMapServiceLayer
 });
 ```
 ***Kết quả***
+
 Nhấn vào [đây](http://hcmgisportal.vn/gisc/hcmgis_googlemaps.html) để xem ví dụ
