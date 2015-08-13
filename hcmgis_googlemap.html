@@ -2,7 +2,7 @@
     <head>
         <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-        <title>Chèn HCMGIS vào Google Maps</title>
+        <title>HCMGIS - Google Maps</title>
         <script type="text/javascript"
              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDKq9HHFQReMFM7PJi3ibNq30WzH8unkI">
         </script>
@@ -10,6 +10,7 @@
         </script>
         <script type="text/javascript">
             function init() {
+            	//Sytle ẩn đường giao thông
                 var styles  = [
                   {
                     "featureType": "road",
@@ -34,7 +35,7 @@
                 map.mapTypes.set('map_style', styledMap);
                 map.setMapTypeId('map_style');
 
-                var url = 'http://localhost:6080/arcgis/rest/services/BaseMap/BaseMap_gt_HCM/MapServer';
+                var url = 'http://hcmgisportal.vn:6080/arcgis/rest/services/BaseMap_HCM_gt/MapServer';
                 var cpc = new gmaps.ags.CopyrightControl(map);
                 var dynamap = new gmaps.ags.MapOverlay(url, { opacity: 1 });
                 dynamap.setMap(map);
