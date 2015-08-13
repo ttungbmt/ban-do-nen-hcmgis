@@ -1,4 +1,4 @@
-**HCMGIS công bố dịch vụ bản đồ nền và không ảnh**
+**Khai thác dịch vụ bản đồ nền và không ảnh TP. HCM**
 ===================
 <p align="right" style="font-style:italic">Trương Thanh Tùng <br> Trung tâm Ứng dụng GIS TP.HCM<br><br></p>
 
