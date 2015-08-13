@@ -108,11 +108,16 @@ L.control.layers({
 ```
 
 ***Kết quả***
-![enter image description here](http://hcmgisportal.vn/basemap/img/1.png")
+![enter image description here](http://hcmgisportal.vn/basemap/img/1.png)
+
 Lớp bản đồ nền
-![enter image description here](http://hcmgisportal.vn/basemap/img/2.png")
+
+![enter image description here](http://hcmgisportal.vn/basemap/img/2.png)
+
 Chồng lớp bản đồ nền với không ảnh
-![enter image description here](http://hcmgisportal.vn/basemap/img/3.png")
+
+![enter image description here](http://hcmgisportal.vn/basemap/img/3.png)
+
 Lớp không ảnh
 
 Nhấn vào [đây](http://hcmgisportal.vn/basemap/hcmgis_leaflet.html) để xem ví dụ
@@ -156,7 +161,7 @@ var map = new ol.Map({
 ```
 
 ***Kết quả***
-![enter image description here](http://hcmgisportal.vn/basemap/img/4.png")
+![enter image description here](http://hcmgisportal.vn/basemap/img/4.png)
 
 Nhấn vào [đây](http://hcmgisportal.vn/basemap/hcmgis_openlayers.html) để xem ví dụ
 
@@ -190,7 +195,7 @@ dynamap.setMap(map);
 Hiển thị lớp giao thông GIS nền trên Google Maps khi ẩn lớp giao thông của Gmap
 
 ***Kết quả***
-![enter image description here](http://hcmgisportal.vn/basemap/img/5.png")
+![enter image description here](http://hcmgisportal.vn/basemap/img/5.png)
 
 Nhấn vào [đây](http://hcmgisportal.vn/basemap/hcmgis_googlemaps.html) để xem ví dụ
 
@@ -217,6 +222,6 @@ require(["esri/map", "dojo/domReady!", "esri/layers/ArcGISDynamicMapServiceLayer
 });
 ```
 ***Kết quả***
-![enter image description here](http://hcmgisportal.vn/basemap/img/6.png")
+![enter image description here](http://hcmgisportal.vn/basemap/img/6.png)
 
 Nhấn vào [đây](http://hcmgisportal.vn/basemap/hcmgis_googlemaps.html) để xem ví dụ
