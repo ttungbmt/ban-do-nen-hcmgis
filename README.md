@@ -2,7 +2,7 @@
 ===================
 <p align="right" style="font-style:italic">Trương Thanh Tùng <br> Trung tâm Ứng dụng GIS TP.HCM<br><br></p>
 
-HCMGIS vừa công bố dịch vụ **bản đồ nền và không ảnh** (độ phân giải 25cm) khu vực Tp. HCM. Bài viết trình bày cách khai thác, sử dụng dịch vụ bản đồ này với các thư viện **Leaflet, Google Maps, ArcGIS Javascript và Openlayers**.
+HCMGIS vừa công bố thủ nghiệm dịch vụ **bản đồ nền và không ảnh** (độ phân giải 25cm) khu vực Tp. HCM. Bài viết trình bày cách khai thác, sử dụng dịch vụ bản đồ này với các thư viện **Leaflet, Google Maps, ArcGIS Javascript và Openlayers**.
 
 
 
