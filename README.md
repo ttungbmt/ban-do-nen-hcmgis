@@ -229,3 +229,14 @@ require(["esri/map", "dojo/domReady!", "esri/layers/ArcGISDynamicMapServiceLayer
 ![enter image description here](http://hcmgisportal.vn/basemap/img/6.png)
 
 Nhấn vào [đây](http://hcmgisportal.vn/basemap/hcmgis_googlemaps.html) để xem ví dụ
+
+**Mã nguồn:**
+
+ - https://github.com/ttungbmt/ban-do-nen-hcmgis
+
+**Liên kết**
+
+ - http://hcmgisportal.vn/basemap/hcmgis_leaflet
+ - http://hcmgisportal.vn/basemap/hcmgis_googlemaps
+ - http://hcmgisportal.vn/basemap/hcmgis_openlayers
+ - http://hcmgisportal.vn/basemap/hcmgis_arcgisjs
