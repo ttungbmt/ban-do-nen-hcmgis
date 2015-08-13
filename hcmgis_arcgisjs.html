@@ -5,7 +5,7 @@
     <!--The viewport meta tag is used to improve the presentation and behavior of the samples 
       on iOS devices-->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
-    <title>Chèn HCMGIS vào ArcGIS Javascript</title>
+    <title>HCMGIS - ArcGIS Javascript</title>
     <link rel="stylesheet" href="http://js.arcgis.com/3.14/esri/css/esri.css"/>
     <style>
       html, body, #mapDiv{
@@ -27,7 +27,7 @@
 
         map = new Map("mapDiv");
        
-        var dynamicMapServiceLayer = new ArcGISDynamicMapServiceLayer("http://localhost/hcmgis/rest/services/BaseMap/BaseMap_HCM/MapServer");
+        var dynamicMapServiceLayer = new ArcGISDynamicMapServiceLayer("http://hcmgisportal.vn:6080/arcgis/rest/services/BaseMap_HCM/MapServer");
 
         map.addLayer(dynamicMapServiceLayer);
       });
